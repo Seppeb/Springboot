@@ -78,4 +78,12 @@ public class Author {
                 ", books=" + books +
                 '}';
     }
+
+    public Set<Book> getBooks() {
+        return books;
+    }
+
+    public void setBooks(Set<Book> books) {
+        this.books = books;
+    }
 }
